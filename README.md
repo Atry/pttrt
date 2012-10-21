@@ -24,7 +24,7 @@ That's why I created `Pttrt`.
 
 ### Step 1: Install `Pttrt` into your project
 
-Add the following line to your `project/plugins.sbt`
+Add the following line to your `project/plugins.sbt`:
 
     addSbtPlugin("com.dongxiguo" % "pttrt" % "0.1.0")
 
