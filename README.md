@@ -15,8 +15,8 @@ and to set values for each of these `SettingKey`s in your `.sbt` files.
 
 I just want a lightweight way like `Makefile`:
 
-    generated.ini:
-    	echo BaseDir=$(PWD) > $@
+    generated.properties:
+    	echo my.base.dir=$(PWD) > $@
 
 That's why I created `Pttrt`.
 
