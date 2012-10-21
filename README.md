@@ -24,22 +24,18 @@ That's why I created `Pttrt`.
 
 ### Step 1: Install `Pttrt` into your project
 
-Add following lines to your `project/project/PluginsBuild.scala`
+Add the following line to your `project/plugins.sbt`
 
-    import sbt._
-    object PluginsBuild extends Build {
-      lazy val pttrt = RootProject(uri("git://github.com/Atry/pttrt.git"))
-      lazy val root = Project(id = "root", base = file(".")).dependsOn(pttrt)
-    }
+    addSbtPlugin("com.dongxiguo" % "pttrt" % "0.1.0")
 
-And add `pttrtSettings` to `project/plugins.sbt`:
+And add `pttrtSettings` to your `build.sbt`:
 
     pttrtSettings
 
 ### Step 2: Export the data that will be passed to run-time
 
 For example, if you want to know the building version on run-time,
-you need to add following lines at `project/plugins.sbt`:
+you need to add following lines at `build.sbt`:
 
     pttrtSettings
     
