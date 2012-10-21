@@ -66,3 +66,11 @@ Create `PttrtExample.scala`:
 You will see:
 
     Building version is 1.2.3-SNAPSHOT
+
+See https://github.com/Atry/pttrt/tree/master/pttrt-test for more example.
+
+## Addition requirement
+
+ * `Pttrt` is for sbt 0.12
+ * Any value being passed to run-time must be a primary type (`Int`, `Double`, `Boolean`, etc) or `java.io.Serializable`
+ * The value's type must be found in the classpath for both compile-time and run-time.
