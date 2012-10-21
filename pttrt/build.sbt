@@ -19,9 +19,7 @@ organizationHomepage := None
 name := "pttrt"
 
 crossScalaVersions :=
-  Seq("2.9.0", "2.9.0-1", "2.9.1", "2.9.1-1", "2.9.2",
-      "2.10.0-M1", "2.10.0-M2", "2.10.0-M4", "2.10.0-M5", "2.10.0-M6", "2.10.0-M7",
-      "2.10.0-RC1")
+  Seq("2.9.0", "2.9.0-1", "2.9.1", "2.9.1-1", "2.9.2", "2.10.0-RC1")
 
 version := "0.1.0"
 
@@ -43,3 +41,20 @@ licenses := Seq(
   url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 
 homepage := Some(url("https://code.google.com/p/pttrt/"))
+
+scmInfo := Some(ScmInfo(
+  url("https://github.com/Atry/pttrt"),
+  "scm:git:git://github.com/Atry/pttrt.git",
+  Some("scm:git:git@github.com:Atry/pttrt.git")))
+
+pomExtra :=
+  <developers>
+    <developer>
+      <id>Atry</id>
+      <name>杨博</name>
+      <timezone>+8</timezone>
+      <email>pop.atry@gmail.com</email>
+    </developer>
+  </developers>
+
+// vim: et sts=2 sw=2

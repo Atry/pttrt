@@ -17,12 +17,12 @@ pttrtSettings
 name := "pttrt-test"
 
 PttrtKeys.pttrtData +=
-  "Foo" -> Map[String, TypedExpression](
+  "Foo" -> Map(
     "Bar" -> TypedExpression(100, "Hello", "World", true),
     "Baz" -> TypedExpression(42))
 
 PttrtKeys.pttrtData <+= name map { name =>
-  "com.dongxiguo.pttrt.test.BuildingInfo" -> Map[String, TypedExpression](
+  "com.dongxiguo.pttrt.test.BuildingInfo" -> Map(
     "Date" -> TypedExpression(new java.util.Date),
     "ProjectName" -> TypedExpression(name),
     "GitBranch" -> TypedExpression("git branch"!!))
