@@ -24,10 +24,10 @@ That's why I created `Pttrt`.
 
 ### Step 1: Install `Pttrt` into your project
 
-Add following lines to your `project/project/pluginsBuild.scala`
+Add following lines to your `project/project/PluginsBuild.scala`
 
     import sbt._
-    object ProjectBuild extends Build {
+    object PluginsBuild extends Build {
       lazy val pttrt = RootProject(uri("git://github.com/Atry/pttrt.git"))
       lazy val root = Project(id = "root", base = file(".")).dependsOn(pttrt)
     }
