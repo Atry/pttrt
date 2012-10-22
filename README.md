@@ -6,7 +6,7 @@ designed to pass data from compile-time to run-time.
 ## Motive
 
 Many times, my programs need some information, which is generated at compile-time and used at run-time.
-For example, Subversion's revision, JARs's dependencies, configure files, and poor man's macro ;-), etc.
+For example, Subversion's revision, JARs's dependencies, configuration files, and poor man's macro ;-), etc.
 
 It is really heavyweight to deal with these situation in sbt.
 You need to create a plugin for each type of files you generated,
