@@ -60,7 +60,8 @@ Create `PttrtExample.scala`:
 
 ### Step 4: Run it!
 
-    $ sbt run-main PttrtExample
+    $ sbt
+    > run-main PttrtExample
 
 You will see:
 
