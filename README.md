@@ -15,8 +15,9 @@ and to set values for each of these `SettingKey`s in your `.sbt` files.
 
 There are some plugins, like [xsbt-reflect](https://github.com/ritschwumm/xsbt-reflect),
 also able to generate some infomation for run-time. But they cannot fit every variant cases I met.
-[sbt-buildinfo](https://github.com/sbt/sbt-buildinfo) and `Pttrt` have similar feature, but `sbt-buildinfo`
-cannot generate multiply files, preventing itself to be used for code generation from multiply separate plugins.
+Another plugin, [sbt-buildinfo](https://github.com/sbt/sbt-buildinfo) and `Pttrt` have similar feature,
+but `sbt-buildinfo` cannot generate multiply files, preventing itself to be used for code generation from multiply
+separate plugins.
 
 I just want a lightweight and general-purpose way like `Makefile`:
 
