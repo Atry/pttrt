@@ -18,6 +18,8 @@ organizationHomepage := None
 
 name := "pttrt"
 
+CrossBuilding.crossSbtVersions := Seq("0.11.2", "0.11.3", "0.12", "0.12.0", "0.12.1")
+
 crossScalaVersions :=
   Seq("2.9.0", "2.9.0-1", "2.9.1", "2.9.1-1", "2.9.2", "2.10.0-RC1")
 
@@ -40,7 +42,7 @@ licenses := Seq(
   "Apache License, Version 2.0" ->
   url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 
-homepage := Some(url("https://code.google.com/p/pttrt/"))
+homepage := Some(url("https://github.com/Atry/pttrt"))
 
 scmInfo := Some(ScmInfo(
   url("https://github.com/Atry/pttrt"),
