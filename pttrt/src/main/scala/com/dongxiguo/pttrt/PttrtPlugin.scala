@@ -132,7 +132,7 @@ object PttrtPlugin extends Plugin {
                 "object " append objectName append " {\n\n"
               for ((fieldName, typedData) <- fields) {
                 writer append
-                  "  val " append fieldName append ": " append
+                  "  final val " append fieldName append ": " append
                   typedData.typeName append
                   " = " append typedData.expression append "\n\n"
               }
