@@ -12,16 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+crossBuildingSettings
+
 organization := "com.dongxiguo"
 
 organizationHomepage := None
 
 name := "pttrt"
 
-CrossBuilding.crossSbtVersions := Seq("0.11.2", "0.11.3", "0.12", "0.12.0", "0.12.1")
+CrossBuilding.crossSbtVersions := Seq("0.11.2", "0.11.3", "0.12", "0.13")
 
 crossScalaVersions :=
-  Seq("2.9.0", "2.9.0-1", "2.9.1", "2.9.1-1", "2.9.2", "2.10.0-RC1")
+  Seq("2.9.0", "2.9.0-1", "2.9.1", "2.9.1-1", "2.9.2", "2.10.2")
 
 version := "0.1.1-SNAPSHOT"
 
