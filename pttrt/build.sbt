@@ -25,7 +25,7 @@ CrossBuilding.crossSbtVersions := Seq("0.11.2", "0.11.3", "0.12", "0.13")
 crossScalaVersions :=
   Seq("2.9.0", "2.9.0-1", "2.9.1", "2.9.1-1", "2.9.2", "2.10.2")
 
-version := "0.1.2"
+version := "0.1.3-SNAPSHOT"
 
 sbtPlugin := true
 
