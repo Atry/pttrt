@@ -1,6 +1,6 @@
 # Pttrt
 
-**Pttrt** (/ˈpɛtrɪt/, or **P**ass **T**hem **T**o **R**un-<wbr/>**t**ime) is a [sbt](http://www.scala-sbt.org/) plugin,
+**Pttrt** (/ˈpɛtrɪt/, or **P**<wbr/>ass **T**<wbr/>hem **T**<wbr/>o **R**<wbr/>un-**t**<wbr/>ime) is a [sbt](http://www.scala-sbt.org/) plugin,
 designed to pass data from compile-time to run-time.
 
 ## Motive
