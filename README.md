@@ -32,7 +32,7 @@ That's why I created `Pttrt`.
 
 Add the following line to your `project/plugins.sbt`:
 
-    addSbtPlugin("com.dongxiguo" % "pttrt" % "0.1.0")
+    addSbtPlugin("com.dongxiguo" % "pttrt" % "0.1.2")
 
 And add `pttrtSettings` to your `build.sbt`:
 
